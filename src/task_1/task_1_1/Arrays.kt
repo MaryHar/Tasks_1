@@ -1,3 +1,5 @@
+package task_1.task_1_1
+
 import kotlin.math.min
 
 /*Arrays - Given a two-dimensional array. Calculate the sum of the numbers along the diagonals.*/

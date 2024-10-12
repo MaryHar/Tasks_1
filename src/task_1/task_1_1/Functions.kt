@@ -1,3 +1,5 @@
+package task_1.task_1_1
+
 /*Functions - Create a calculate function that receives two numbers and does operation with the numbers so that we can use the function to sum, subtract, multiply the numbers*/
 /*fun calculate(m: Int, n: Int, operation: String): Int? {
     return when (operation) {

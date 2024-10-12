@@ -1,4 +1,4 @@
-package constraints
+package task_1.constraints
 
 class Labrador : Dog {
     override fun bark() {

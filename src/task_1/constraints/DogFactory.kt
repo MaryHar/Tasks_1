@@ -1,8 +1,4 @@
-package constraints
-
-import constraints.Dog
-import constraints.Labrador
-import constraints.Husky
+package task_1.constraints
 
 class DogFactory {
     companion object {

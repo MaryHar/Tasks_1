@@ -1,3 +1,5 @@
+package task_1.task_1_1
+
 /*OOP - Create a program using inheritance, polymorphism and encapsulation */
 // Base class
 open class Dog(private val name: String) {
