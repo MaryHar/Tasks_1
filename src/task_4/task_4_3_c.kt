@@ -7,18 +7,17 @@ fun function (input: String): Int {
         val previousIndex = characterIndices[currentCharacter]
 
         if (previousIndex != null) {
-            val pathLength = index - previousIndex
+            val pathLength = index - previousIndex - 1
             longestPath = maxOf(longestPath, pathLength)
+        } else {
+            characterIndices[currentCharacter] = index
         }
-
-        characterIndices[currentCharacter] = index
+    }
+        return longestPath
     }
 
-    return longestPath
-}
-
-fun main() {
-    val inputString = "abcdef"
-    val longestPath = function(inputString)
-    println("Result: $longestPath")
-}
+    fun main() {
+        val inputString = "abqcdefbghqigf"
+        val longestPath = function(inputString)
+        println("Result: $longestPath")
+    }
